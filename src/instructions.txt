@@ -1,0 +1,11 @@
+Pour démarrer le projet, ouvrez PowerShell et lancez Docker :
+'''
+cd desktop
+cd smart-home-docker
+docker-compose up -d
+'''
+Pour accéder à Node-RED, ouvrez votre navigateur à l’adresse : http://localhost:1880
+
+Pour accéder au tableau de bord, rendez-vous sur : http://localhost:1880/ui
+
+Une fois votre travail terminé, arrêtez Docker avec la commande : docker-compose down
